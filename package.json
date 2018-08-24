@@ -1,0 +1,18 @@
+{
+  "name": "karma-drop-logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run --browsers Chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "mocha": "^5.2.0"
+  }
+}
